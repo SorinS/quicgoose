@@ -33,10 +33,10 @@
 namespace quic;
 
 import std;
-import net from "SorinS/netgoose@v0.9.0";
-import bignum from "SorinS/bigmongoose@v0.9.0";
-import x509 from "SorinS/x509goose@v0.9.0";
-import tls from "SorinS/tlsgoose@v0.9.0";
+import net from "SorinS/netgoose@v0.9.1";
+import bignum from "SorinS/bigmongoose@v0.9.1";
+import x509 from "SorinS/x509goose@v0.9.1";
+import tls from "SorinS/tlsgoose@v0.9.1";
 
 let VERSION_1: u32 = 0x00000001;
 

@@ -10,13 +10,13 @@ driver carries them over UDP. Eleven modules in namespace `quic`, and two
 tools, `goose-h3` and `goose-h3d`.
 
 ```goose
-import quic from "SorinS/quicgoose@v0.9.0";
-import entropy from "SorinS/entropygoose@v0.9.0";   // quic needs it; the root declares it
-import net from "SorinS/netgoose@v0.9.0";
-import bignum from "SorinS/bigmongoose@v0.9.0";
-import asn1 from "SorinS/asn1goose@v0.9.0";
-import x509 from "SorinS/x509goose@v0.9.0";
-import tls from "SorinS/tlsgoose@v0.9.0";
+import quic from "SorinS/quicgoose@v0.9.1";
+import entropy from "SorinS/entropygoose@v0.9.1";   // quic needs it; the root declares it
+import net from "SorinS/netgoose@v0.9.1";
+import bignum from "SorinS/bigmongoose@v0.9.1";
+import asn1 from "SorinS/asn1goose@v0.9.1";
+import x509 from "SorinS/x509goose@v0.9.1";
+import tls from "SorinS/tlsgoose@v0.9.1";
 import tls.handshake;
 import x509.pool;
 import quic.conn;
